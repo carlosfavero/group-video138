@@ -6,9 +6,9 @@ const server = http.createServer(app);
 const socket = require("socket.io");
 const io = socket(server);
 const path = require('path');
-const cors = require("cors");
+//const cors = require("cors");
 
-app.use(cors());
+//app.use(cors());
 
 const users = {};
 
